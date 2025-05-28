@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162D00432BAB5DFD004A4377 /* TravlzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D00422BAB5DFD004A4377 /* TravlzApp.swift */; };
+		162D00452BAB5DFD004A4377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D00442BAB5DFD004A4377 /* ContentView.swift */; };
+		162D00472BAB5DFF004A4377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162D00462BAB5DFF004A4377 /* Assets.xcassets */; };
+		162D004A2BAB5DFF004A4377 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162D00492BAB5DFF004A4377 /* Preview Assets.xcassets */; };
+		162ED2FB2BC85A0F00757DC3 /* Pixabay.plist in Resources */ = {isa = PBXBuildFile; fileRef = 162ED2FA2BC85A0F00757DC3 /* Pixabay.plist */; };
+		162ED2FD2BC85A6F00757DC3 /* PixabayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162ED2FC2BC85A6F00757DC3 /* PixabayData.swift */; };
+		162ED3002BC85ACC00757DC3 /* PixabayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162ED2FF2BC85ACC00757DC3 /* PixabayHelper.swift */; };
+		162ED3022BC85AF700757DC3 /* PropertyFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162ED3012BC85AF700757DC3 /* PropertyFileHelper.swift */; };
+		16CAF53A2BF28CC9005C59D2 /* Planning screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CAF5392BF28CC9005C59D2 /* Planning screen.swift */; };
+		16CAF53C2BF28CE2005C59D2 /* TravelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CAF53B2BF28CE2005C59D2 /* TravelData.swift */; };
+		16E5DFA32BC5B540009294EB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5DFA22BC5B540009294EB /* MainTabView.swift */; };
+		16E5DFA52BC5B75E009294EB /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5DFA42BC5B75E009294EB /* FeedView.swift */; };
+		16E5DFAA2BC5BA77009294EB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5DFA92BC5BA77009294EB /* FeedCell.swift */; };
+		16EBF8A32BF7D14300591D6B /* My Plans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CAF5372BF28CBD005C59D2 /* My Plans.swift */; };
+		16EBF8A52BF7DA0800591D6B /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBF8A42BF7DA0800591D6B /* SavedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		162D003F2BAB5DFD004A4377 /* Travlz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travlz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D00422BAB5DFD004A4377 /* TravlzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravlzApp.swift; sourceTree = "<group>"; };
+		162D00442BAB5DFD004A4377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		162D00462BAB5DFF004A4377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162D00492BAB5DFF004A4377 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		162ED2FA2BC85A0F00757DC3 /* Pixabay.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Pixabay.plist; sourceTree = "<group>"; };
+		162ED2FC2BC85A6F00757DC3 /* PixabayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayData.swift; sourceTree = "<group>"; };
+		162ED2FF2BC85ACC00757DC3 /* PixabayHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayHelper.swift; sourceTree = "<group>"; };
+		162ED3012BC85AF700757DC3 /* PropertyFileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyFileHelper.swift; sourceTree = "<group>"; };
+		16BD64892BD2E54F00952302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16CAF5372BF28CBD005C59D2 /* My Plans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "My Plans.swift"; path = "../../../../../Downloads/TravelApp2/TravelApp2/My Plans.swift"; sourceTree = "<group>"; };
+		16CAF5392BF28CC9005C59D2 /* Planning screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Planning screen.swift"; path = "../../../../../Downloads/TravelApp2/TravelApp2/Planning screen.swift"; sourceTree = "<group>"; };
+		16CAF53B2BF28CE2005C59D2 /* TravelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelData.swift; path = ../../../../../Downloads/TravelApp2/TravelApp2/TravelData.swift; sourceTree = "<group>"; };
+		16E5DFA22BC5B540009294EB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		16E5DFA42BC5B75E009294EB /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		16E5DFA92BC5BA77009294EB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		16EBF8A42BF7DA0800591D6B /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162D003C2BAB5DFD004A4377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162D00362BAB5DFD004A4377 = {
+			isa = PBXGroup;
+			children = (
+				162ED2FA2BC85A0F00757DC3 /* Pixabay.plist */,
+				162D00412BAB5DFD004A4377 /* Travlz */,
+				162D00402BAB5DFD004A4377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		162D00402BAB5DFD004A4377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162D003F2BAB5DFD004A4377 /* Travlz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162D00412BAB5DFD004A4377 /* Travlz */ = {
+			isa = PBXGroup;
+			children = (
+				16CAF5362BF28C95005C59D2 /* Planner */,
+				16BD64892BD2E54F00952302 /* Info.plist */,
+				162ED2FE2BC85A8600757DC3 /* Pixabay */,
+				16E5DFA62BC5BA4D009294EB /* Feed */,
+				16E5DFA22BC5B540009294EB /* MainTabView.swift */,
+				162D00422BAB5DFD004A4377 /* TravlzApp.swift */,
+				162D00442BAB5DFD004A4377 /* ContentView.swift */,
+				162D00462BAB5DFF004A4377 /* Assets.xcassets */,
+				162D00482BAB5DFF004A4377 /* Preview Content */,
+			);
+			path = Travlz;
+			sourceTree = "<group>";
+		};
+		162D00482BAB5DFF004A4377 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				162D00492BAB5DFF004A4377 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		162ED2FE2BC85A8600757DC3 /* Pixabay */ = {
+			isa = PBXGroup;
+			children = (
+				162ED2FC2BC85A6F00757DC3 /* PixabayData.swift */,
+				162ED3012BC85AF700757DC3 /* PropertyFileHelper.swift */,
+				162ED2FF2BC85ACC00757DC3 /* PixabayHelper.swift */,
+			);
+			path = Pixabay;
+			sourceTree = "<group>";
+		};
+		16CAF5362BF28C95005C59D2 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				16CAF53B2BF28CE2005C59D2 /* TravelData.swift */,
+				16CAF5392BF28CC9005C59D2 /* Planning screen.swift */,
+				16CAF5372BF28CBD005C59D2 /* My Plans.swift */,
+				16EBF8A42BF7DA0800591D6B /* SavedView.swift */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		16E5DFA62BC5BA4D009294EB /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				16E5DFA42BC5B75E009294EB /* FeedView.swift */,
+				16E5DFA92BC5BA77009294EB /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162D003E2BAB5DFD004A4377 /* Travlz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162D004D2BAB5DFF004A4377 /* Build configuration list for PBXNativeTarget "Travlz" */;
+			buildPhases = (
+				162D003B2BAB5DFD004A4377 /* Sources */,
+				162D003C2BAB5DFD004A4377 /* Frameworks */,
+				162D003D2BAB5DFD004A4377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travlz;
+			productName = Travlz;
+			productReference = 162D003F2BAB5DFD004A4377 /* Travlz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162D00372BAB5DFD004A4377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>PixabayUrl</key>
+	<string>https://pixabay.com/api/?key=</string>
+	<key>PixabayApiKey</key>
+	<string>4439321-f0ec5e18101d07750e879534f</string>
+	<key>PixabayImageType</key>
+	<string>image_type=photo</string>
+</dict>
+</plist>",
+				);
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					162D003E2BAB5DFD004A4377 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 162D003A2BAB5DFD004A4377 /* Build configuration list for PBXProject "Travlz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162D00362BAB5DFD004A4377;
+			productRefGroup = 162D00402BAB5DFD004A4377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162D003E2BAB5DFD004A4377 /* Travlz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162D003D2BAB5DFD004A4377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162ED2FB2BC85A0F00757DC3 /* Pixabay.plist in Resources */,
+				162D004A2BAB5DFF004A4377 /* Preview Assets.xcassets in Resources */,
+				162D00472BAB5DFF004A4377 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162D003B2BAB5DFD004A4377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162ED3022BC85AF700757DC3 /* PropertyFileHelper.swift in Sources */,
+				16CAF53A2BF28CC9005C59D2 /* Planning screen.swift in Sources */,
+				162ED2FD2BC85A6F00757DC3 /* PixabayData.swift in Sources */,
+				16CAF53C2BF28CE2005C59D2 /* TravelData.swift in Sources */,
+				16E5DFA52BC5B75E009294EB /* FeedView.swift in Sources */,
+				16E5DFAA2BC5BA77009294EB /* FeedCell.swift in Sources */,
+				162D00452BAB5DFD004A4377 /* ContentView.swift in Sources */,
+				162ED3002BC85ACC00757DC3 /* PixabayHelper.swift in Sources */,
+				16EBF8A52BF7DA0800591D6B /* SavedView.swift in Sources */,
+				162D00432BAB5DFD004A4377 /* TravlzApp.swift in Sources */,
+				16EBF8A32BF7D14300591D6B /* My Plans.swift in Sources */,
+				16E5DFA32BC5B540009294EB /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		162D004B2BAB5DFF004A4377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XR4TBX748U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162D004C2BAB5DFF004A4377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XR4TBX748U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162D004E2BAB5DFF004A4377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travlz/Preview Content\"";
+				DEVELOPMENT_TEAM = XR4TBX748U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Travlz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Travlz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KrishCode.Travlz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162D004F2BAB5DFF004A4377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travlz/Preview Content\"";
+				DEVELOPMENT_TEAM = XR4TBX748U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Travlz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Travlz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KrishCode.Travlz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162D003A2BAB5DFD004A4377 /* Build configuration list for PBXProject "Travlz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162D004B2BAB5DFF004A4377 /* Debug */,
+				162D004C2BAB5DFF004A4377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162D004D2BAB5DFF004A4377 /* Build configuration list for PBXNativeTarget "Travlz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162D004E2BAB5DFF004A4377 /* Debug */,
+				162D004F2BAB5DFF004A4377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162D00372BAB5DFD004A4377 /* Project object */;
+}
